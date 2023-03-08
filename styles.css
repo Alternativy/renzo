@@ -97,3 +97,37 @@ nav a:last-child {
 form {
     border: none;
 }
+
+/* otro estilo */
+
+form label {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid gray;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+form button {
+    background-color: #0d00c3;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+form button:hover {
+    background-color: #333333;
+    cursor: pointer;
+}
