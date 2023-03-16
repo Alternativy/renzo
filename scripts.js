@@ -1,13 +1,3 @@
-// const sectionLinks = document.querySelectorAll('nav a');
-
-// sectionLinks.forEach(link => {
-//     link.addEventListener('click', () => {
-//         const targetSection = document.querySelector(link.getAttribute('href'));
-//         targetSection.scrollIntoView({behavior: 'smooth'});
-//     });
-// });
-
-
 // Obtener todos los enlaces de navegación
 const enlaces = document.querySelectorAll('nav a');
 
@@ -31,5 +21,21 @@ enlaces.forEach((enlace) => {
         seccion.classList.add('oculto');
       }
     });
+  });
+});
+
+const navLinks = document.querySelectorAll('.nav-link');
+navLinks.forEach(link => {
+  link.addEventListener('click', (event) => {
+    // Evita el comportamiento predeterminado del enlace
+    event.preventDefault();
+
+    // Remueve la clase "active" de todos los enlaces
+    navLinks.forEach(link => {
+      link.classList.remove('active');
+    });
+
+    // Agrega la clase "active" al enlace clickeado
+    link.classList.add('active');
   });
 });
