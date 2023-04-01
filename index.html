@@ -76,13 +76,20 @@
             <a href="https://www.instagram.com/renzomarkow" target="_blank">
                 <img src="instagram.png" alt="Logo de Instagram">
             </a>
-            <form action="mailto:tu_correo_ejemplo@gmail.com" method="post" enctype="text/plain">
+            <!-- <form action="mailto:tu_correo_ejemplo@gmail.com" method="post" enctype="text/plain">
                 <label for="email">Correo electrónico:</label>
                 <input type="email" id="email" name="email" placeholder="Ingresa tu correo electrónico" required></input>
                 <label for="mensaje">Mensaje:</label>
                 <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí" required></textarea>
                 <button type="submit">Enviar</button>
-            </form>
+            </form> -->
+            <form name="contact" netlify>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" placeholder="Escribe tu mensaje aquí" required></textarea>
+                <button type="submit">Enviar</button>
+              </form>
         </div>
 
 

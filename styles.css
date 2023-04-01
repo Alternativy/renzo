@@ -23,7 +23,7 @@ body {
   
   .audiovisuales, .Reel, .contacto, .descripcion {
     padding: 20px;
-    margin-bottom: 20px;
+    padding-bottom: 0;
   }
 
   
@@ -63,12 +63,12 @@ body {
   }
   
   body {
-    height: 100vh;
+    height: 90vh;
     margin: 0;
   }
   
   div {
-    height: 100vh;
+    height: 80vh;
   }
   
   html {
@@ -109,16 +109,6 @@ form input, form textarea {
     font-size: 16px;
     font-family: Arial, sans-serif;
 }
-
-/* form button {
-    background-color: #0d00c3;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 18px;
-    font-family: Arial, sans-serif;
-} */
 
 form button:hover {
     background-color: #333333;
@@ -196,4 +186,13 @@ img {
   align-self: flex-start;
   padding-right: 10px; /* ajusta este valor según la separación que deseas */
 
+}
+
+#contacto {
+  overflow: hidden;
+}
+
+.descripcion img {
+  max-width: 100%;
+  max-height: 400px;
 }
