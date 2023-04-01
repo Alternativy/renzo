@@ -28,7 +28,8 @@ body {
 
   
   form {
-    padding: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
@@ -130,9 +131,8 @@ a {
   color: #888;
 }
 
-
-a:hover ,
-a:active{
+.selected,
+a:hover{
   color: #333;
   text-shadow: 1px 1px 1px #ccc;
 }
