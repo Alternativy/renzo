@@ -1,7 +1,7 @@
 body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(255, 251, 245);
+    background-color: #fffbdf;
 }
 
   
@@ -43,7 +43,7 @@ body {
     color: black;
     border: 1px solid black;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: #fffbdf;
   }
   
   form input[type="submit"] {
@@ -144,7 +144,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #fff; /* Cambia el color a tu preferencia */
+  background-color: #fffbdf; /* Cambia el color a tu preferencia */
   z-index: 1000; /* Asegura que la barra de navegación esté en la parte superior */
   height: 20vh;
 }
@@ -181,4 +181,19 @@ nav a {
 
 .oculto {
   display: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  max-width: 20vh; /* ajusta este valor según el tamaño de tu logo */
+  height: auto;
+  object-fit: contain;
+  align-self: flex-start;
+  padding-right: 10px; /* ajusta este valor según la separación que deseas */
+
 }
